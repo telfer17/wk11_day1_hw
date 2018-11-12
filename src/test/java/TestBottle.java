@@ -23,10 +23,10 @@ public class TestBottle {
     }
 
     @Test
-    public void takeThreeDrinks(){
+    public void takeTwoDrinks(){
         bottle.takeDrink();
         bottle.takeDrink();
-        assertEquals(70, bottle.takeDrink());
+        assertEquals(80, bottle.getVolume());
     }
 
     @Test
